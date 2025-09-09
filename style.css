@@ -191,3 +191,13 @@ textarea {
    width: 81%;
    height: 50px;
 }
+
+section a {
+  color: rgb(51, 144, 215);
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+  font-size: 19px;
+}
