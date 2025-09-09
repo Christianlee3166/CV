@@ -9,7 +9,7 @@ nav {
   font-size: 25px;
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 nav .button{
@@ -49,10 +49,11 @@ h1 {
   display: flex;
   justify-content: center;
   font-size: 50px;
+  
 }
 
 h1.lato-thin{
-  color: rgb(157, 178, 191);
+  color: rgb(0, 0, 0);
   font-family: "Lato", sans-serif;
   font-weight: bolder;
   font-style: normal;
@@ -75,7 +76,6 @@ h3.lato-thin{
   display: flex;
   align-items: center;
   gap: 20px; 
-  
   margin-right: 40px;
 }
 
@@ -89,6 +89,7 @@ h3.lato-thin{
 .introText{
   flex-direction: column;
   font-size: 23px;
+  margin-bottom: 20px;
 }
 
 .address {
@@ -123,7 +124,7 @@ section ul {
 }
 
 section a {
-  color: rgb(51, 144, 205);
+  color: rgb(44, 148, 228);
   text-decoration: none;
 }
 
@@ -192,12 +193,14 @@ textarea {
    height: 50px;
 }
 
-section a {
-  color: rgb(51, 144, 205);
-  text-decoration: none;
+section contact.a{
+  color: black;
 }
 
-section a:hover {
-  text-decoration: underline;
-  font-size: 19px;
+i {
+  color: rgb(0, 119, 181);
+}
+
+.contactHeader{
+  background-color: rgb(82, 109, 130);
 }
