@@ -1,7 +1,11 @@
 body {
-  margin: 12px;
+  margin: 0px;
   font-size: 18px;
   }
+
+body .main-content {
+  margin-left: 10px;
+}
 
 /****************   Nav Section **********************/
 nav {
