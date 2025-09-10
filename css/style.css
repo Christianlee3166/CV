@@ -176,6 +176,12 @@ section a:hover {
       justify-items: center;
       gap: 20px;
     }
+
+    body {
+        font-size: 15px;
+        margin: 0;
+        padding: 8px;
+    }
 }
 
 /**************   Contact Page   *****************/
