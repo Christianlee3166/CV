@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6b672a5407.js" crossorigin="anonymous"></script>
-    <title>Christian Lee CV</title>
-  </head>
-  <body>
+    <title>Contact — Christian Lee CV</title>
+</head>
+<body>
     <!--Navigation-->
-    <nav> 
-        <p>
-          <a href="index.html" class="button">About Christian Lee</a>
-        </p>
+    <nav class="tabbar">
+        <div class="wrap">
+            <a href="index.html" class="tab">index.html</a>
+            <a href="contact.html" class="tab active">contact.html</a>
+        </div>
     </nav>
-    <div class="contactHeader">
-      <h1 class="lato-thin"> Christian Lee </h1>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <span class="dot dot-red"></span><span class="dot dot-amber"></span><span class="dot dot-green"></span>
+                    <span class="terminal-title">guest@christianlee — bash</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">guest@christianlee:~$</span> cat contact.txt</p>
+                    <p class="out">Athens, Georgia &bull; (919) 725-3371 &bull; Christianlee3166@gmail.com</p>
+                    <p><span class="prompt">guest@christianlee:~$</span> <span class="cursor">&nbsp;</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrap main-content">
+        <section>
+            <h2 class="comment">Send a message</h2>
+            <form class="contact-form" method="POST" action="https://formsubmit.co/el/muhixu">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Send message</button>
+            </form>
+        </section>
     </div>
-    <p>
-        &bull; 110 International Drive <br>
-        &bull; (919) 725-3371 <br>
-        &bull; Christianlee3166@gmail.com
-    </p>
-    
-    <hr class="contact">
-
-    <!--Form-->
-    <section class="one-col">
-    <form method="POST" action="https://formsubmit.co/el/muhixu">
-    <input type="hidden" name="_captcha" value="false">
-    
-      <!-- Name -->
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-     <br>
-
-      <!-- Email -->
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-    <br>
-
-      <!-- Subject -->
-      <label for="subject">Subject:</label>
-      <input type="text" id="subject" name="subject" required>
-    <br>
-
-      <!-- Message -->
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message"></textarea>
-    <br>
-
-      <!-- Submit -->
-      <button type="submit">Submit</button>
-    </form>
-    </section>
 
     <!--Footer-->
     <footer>
-        <div class="footerName">
-        &copy;
-        </div>
-        <a href="index.html" class="footerName">Christian Lee</a>
-        <a href="https://www.linkedin.com/in/christian-lee-703863264/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="index.html">Christian Lee</a>
+        <a href="https://www.linkedin.com/in/christian-lee-703863264/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
     </footer>
 </body>
 </html>
