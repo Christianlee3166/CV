@@ -47,7 +47,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
 
 /* ============================================================
-   Tab-bar navigation 
+   Tab-bar navigation (code editor tab metaphor)
    ============================================================ */
 nav.tabbar {
   background: var(--surface);
